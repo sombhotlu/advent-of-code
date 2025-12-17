@@ -6,22 +6,15 @@ Purpose
 -------
 - This repository contains my Advent of Code solutions organized by day. Each day is a small TypeScript program that reads puzzle input and prints answers for part 1 and part 2.
 
-Repository Layout
------------------
-- Top-level folders: one folder per day (e.g., `day-1`, `2024/day-2`).
-- Each day folder contains:
-	- `day-X.ts` — primary solution file for that day (export or run both parts)
-	- `day-X.test.ts` — tests that exercise the solution (optional)
-	- `input.txt` — the full puzzle input (DO NOT commit personal inputs to public repos)
-	- `simple-input.txt` — a small/example input used for quick testing
-
 Filenames & Conventions
 -----------------------
-- Day folder: `day-N` or `YYYY/day-N` for other years.
-- Solution file: `day-N.ts` where `N` is the day number.
-- Test file (optional): `day-N.test.ts` for automated tests.
-- Main input: `input.txt` — real puzzle input used when submitting answers.
-- Example input: `simple-input.txt` — small input for development and tests.
+- Top-level folders: one folder per day (e.g., `day-1`, `2024/day-2`).
+- Each day folder contains:
+	- Solution files: prefer `part-1.ts` and `part-2.ts`.
+	- Alternate/experimental solutions may be named like `part-2.copilot-solution.ts`.
+	- Test file (optional): `test.ts`  for automated tests.
+	- Main input: `input.txt` — real puzzle input used when submitting answers.
+	- Example input: `simple-input.txt` — small input for development and tests.
 
 How To Run
 ----------
