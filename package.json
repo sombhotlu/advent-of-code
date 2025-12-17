@@ -1,0 +1,16 @@
+{
+  "name": "advent-of-code-2025",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "day-4-input.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bun": "^1.3.4",
+    "@typescript/native-preview": "^7.0.0-dev.20251216.1"
+  }
+}
