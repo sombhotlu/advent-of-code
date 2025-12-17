@@ -23,7 +23,7 @@ Prerequisites: Bun, and a TypeScript toolchain if running TypeScript directly.
 Run a single day's solution (using Bun):
 
 ```bash
-bun test ./day-1/day-1.test.ts
+bun test ./day-1/test.ts
 ```
 
 Tips for Development
