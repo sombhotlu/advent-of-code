@@ -30,7 +30,6 @@ function count(params) {
     return count
 }
 
-
 async function run(filePath: string) {
     const samplePath = new URL(filePath, import.meta.url).pathname;
     const inputStr = await Bun.file(samplePath).text()
